@@ -13,7 +13,7 @@ const startProducer = async () => {
 
   /*
    Control the number of required acks.
-   -1 = all insync replicas must acknowledge (default)
+   -1 = all in sync replicas must acknowledge (default)
    0 = no acknowledgments
    1 = only waits for the leader to acknowledge
   */
